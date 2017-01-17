@@ -1,7 +1,11 @@
-<ion-menu [content]="content">
+<ion-menu type="overlay" [content]="content" transparent>
   <ion-header>
-    <ion-toolbar>
-      <ion-title>Menu</ion-title>
+    <ion-toolbar no-border transparent>
+      <ion-buttons start>
+        <button ion-button icon-only menuClose>
+          <ion-icon name="close"></ion-icon>
+        </button>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
 
