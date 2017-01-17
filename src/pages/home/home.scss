@@ -1,3 +1,39 @@
 page-home {
+  .content {
+    background-color: #D6D6D6;
+  }
 
+  .scroll-content {
+    z-index: 10;
+  }
+
+  svg#menu-bg {
+    position: absolute;
+    top: 0;
+  }
+
+  .circle-top {
+    margin-top: -1px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .services {
+    margin-top: 4%;
+
+    .services-rows {
+      justify-content: space-around;
+      margin-bottom: 20px;
+      padding: 0 5px;
+
+      .services-box {
+        background-color: #EEEEEE;
+        border-radius: 5px;
+        box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+        max-width: 150px;
+        height: 150px;
+        text-align: center;
+      }
+    }
+  }
 }
