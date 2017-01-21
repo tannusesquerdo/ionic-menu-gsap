@@ -6,6 +6,8 @@ import { ServicePage } from '../pages/service/service';
 import { SettingsPage } from '../pages/settings/settings';
 import { AboutPage } from '../pages/about/about';
 
+import 'gsap';
+
 @NgModule({
   declarations: [
     MyApp,

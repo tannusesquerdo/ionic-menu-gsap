@@ -3,6 +3,15 @@ page-home {
     background-color: #D6D6D6;
   }
 
+  svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+
   .scroll-content {
     z-index: 10;
     background: url('../assets/images/circle-top.svg') no-repeat;

@@ -18,17 +18,20 @@
 .ios, .md {
   ion-menu[type=overlay] {
     .menu-inner {
-      box-shadow: 0 0 50px rgba(0, 0, 0, .8);
+      box-shadow: none !important;
     }
 
     .show-backdrop {
       opacity: 0 !important;
     }
+
   }
+
   .menu-inner {
-    background: #cd9800 !important;
+    background: transparent !important;
     width: 100%;
-    height: 38vh;
+    height: 46vh;
+    visibility: hidden;
 
     .toolbar {
       padding-left: 10px;
@@ -55,6 +58,7 @@
 
         &-inner {
           border-bottom: none;
+          background-image: none;
         }
       }
     }
