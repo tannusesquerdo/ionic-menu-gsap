@@ -45,7 +45,19 @@ page-home {
         margin: 10px;
         max-width: 150px;
         min-height: 150px;
+        padding: 20px;
         text-align: center;
+
+        img {
+          max-width: 80px;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+
+        span {
+          font-size: 0.9em;
+        }
       }
     }
   }
